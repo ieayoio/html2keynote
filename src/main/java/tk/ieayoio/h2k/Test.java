@@ -20,12 +20,8 @@ public class Test {
         long s = System.currentTimeMillis();
         System.out.println(s);
 
-        ClassLoader classLoader = Html2Key.class.getClassLoader();
-
         String table1 = DSResourceLoader.getDSResourceLoader("test/table.html").getPath();
         String table2 = DSResourceLoader.getDSResourceLoader("test/table2.html").getPath();
-//        String table1 = classLoader.getResource("test/table.html").getPath();
-//        String table2 = classLoader.getResource("test/table2.html").getPath();
 
         String convert = Html2Key.convert(tmpPath, table1, table2, table1, table2, table1, table2, table1, table2, table1, table2);
         long e = System.currentTimeMillis();
