@@ -14,7 +14,7 @@ String table2 = "~/table2.html"; // html2 file path
 String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, table1, table2, table1, table2, table1, table2);
 ```
 
-## File requirements
+## HTML format requirements
 
 1. HTML needs to change the page to horizontal(Otherwise, the display is strange).
 2. Chinese fonts only support SimSun
