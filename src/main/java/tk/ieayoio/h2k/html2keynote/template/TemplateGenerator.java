@@ -14,6 +14,8 @@ import java.io.*;
 
 /**
  * 生成keynote的index.apxl文件模板
+ * 控制台打印出DataBasic中dataMap的初始化内容
+ * <p>
  * 注意：目前每行只处理了一处不同 2017-07-14
  */
 public class TemplateGenerator {
