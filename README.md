@@ -17,8 +17,8 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
 ## HTML format requirements
 
 1. HTML needs to change the page to horizontal(Otherwise, the display is strange).
-2. Chinese fonts only support SimSun
-3. Reference:[Flying Saucer](https://flyingsaucerproject.github.io/flyingsaucer/r8/guide/users-guide-R8.html#xil_36)
+2. Chinese fonts only support SimSun.
+3. You can set page margins in a @page rule.
 
 ## HTML example
 ```html
@@ -50,5 +50,7 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
 </body>
 </html>
 
-
 ```
+
+## Reference
+[Flying Saucer](https://flyingsaucerproject.github.io/flyingsaucer/r8/guide/users-guide-R8.html#xil_36)
