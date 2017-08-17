@@ -18,6 +18,7 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
 
 1. HTML needs to change the page to horizontal(Otherwise, the display is strange).
 2. Chinese fonts only support SimSun
+3. Reference:[Flying Saucer](https://flyingsaucerproject.github.io/flyingsaucer/r8/guide/users-guide-R8.html#xil_36)
 
 ## HTML example
 ```html
@@ -32,7 +33,8 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
         <!--
 
         @page {
-            size: 297mm 160mm
+            size: 297mm 160mm;
+            margin: 0in;
         }
 
         body {
