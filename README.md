@@ -33,12 +33,12 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
         <!--
 
         @page {
-            size: 297mm 160mm;
+            size: 1024px 768px;
             margin: 0in;
         }
 
         body {
-            font-family: SimSun;
+            font-family: Microsoft YaHei;
         }
         -->
     </style>
