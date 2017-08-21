@@ -17,7 +17,7 @@ String keynotePath = Html2Key.convert(outPath, table1, table2, table1, table2, t
 ## HTML format requirements
 
 1. HTML needs to change the page to horizontal(Otherwise, the display is strange).
-2. Chinese fonts only support SimSun.
+2. Chinese fonts only support Microsoft YaHei.
 3. You can set page margins in a @page rule.
 
 ## HTML example
