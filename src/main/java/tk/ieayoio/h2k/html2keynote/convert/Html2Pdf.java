@@ -4,7 +4,6 @@ import com.lowagie.text.DocumentException;
 import com.lowagie.text.pdf.BaseFont;
 import org.xhtmlrenderer.pdf.ITextFontResolver;
 import org.xhtmlrenderer.pdf.ITextRenderer;
-import tk.ieayoio.h2k.utils.DSResourceLoader;
 
 import java.io.*;
 import java.net.URI;
@@ -25,19 +24,19 @@ public class Html2Pdf {
         renderer.setDocument(uri.toString());
 
 
-        URL simsun = DSResourceLoader.getDSResourceLoader("fonts/simsun.ttc").getURL();
+//        URL simsun = DSResourceLoader.getDSResourceLoader("fonts/simsun.ttc").getURL();
 //        URL simsun = Html2Pdf.class.getClassLoader().getResource("fonts/simsun.ttc");
-//        URL msyh = Html2Pdf.class.getClassLoader().getResource("fonts/msyh.ttf");
+        URL msyh = Html2Pdf.class.getClassLoader().getResource("fonts/msyh.ttf");
 
 //        System.out.println(simsun);
 
         // 解决中文支持问题
         ITextFontResolver fontResolver = renderer.getFontResolver();
         try {
-            fontResolver.addFont(simsun.getPath(), BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+//            fontResolver.addFont(simsun.getPath(), BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
 
 
-            //fontResolver.addFont(msyh.getPath(), BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
+            fontResolver.addFont(msyh.getPath(), BaseFont.IDENTITY_H, BaseFont.NOT_EMBEDDED);
 
 
             // 解决图片的相对路径问题

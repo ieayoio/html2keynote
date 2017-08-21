@@ -10407,13 +10407,21 @@
                 <sf:stylesheet-ref sfa:IDREF="key:stylesheet-${(data.stylesheet2.base+(x?index)*data.stylesheet2.step)?c}" />
                 <sf:text-body sfa:ID="sf:text-body-${(data.text_body1.base+(x?index)*data.text_body1.step)?c}">
                     <sf:p sf:list-level="1" sf:style="sf:paragraphstyle-${(data.paragraphstyle14.base+(x?index)*data.paragraphstyle14.step)?c}">Body Level One
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="2" sf:style="sf:paragraphstyle-${(data.paragraphstyle15.base+(x?index)*data.paragraphstyle15.step)?c}">Body Level Two
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="3" sf:style="sf:paragraphstyle-${(data.paragraphstyle16.base+(x?index)*data.paragraphstyle16.step)?c}">Body Level Three
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="4" sf:style="sf:paragraphstyle-${(data.paragraphstyle17.base+(x?index)*data.paragraphstyle17.step)?c}">Body Level Four
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="5" sf:style="sf:paragraphstyle-${(data.paragraphstyle18.base+(x?index)*data.paragraphstyle18.step)?c}">Body Level Five</sf:p>
                 </sf:text-body>
             </sf:text-storage>
@@ -10476,9 +10484,9 @@
                 <sf:drawables sfa:ID="sf:drawables-${(data.drawables1.base+(x?index)*data.drawables1.step)?c}">
                     <sf:media sfa:ID="sf:media-${(data.media0.base+(x?index)*data.media0.step)?c}">
                         <sf:geometry sfa:ID="sf:geometry-${(data.geometry5.base+(x?index)*data.geometry5.step)?c}">
-                            <sf:naturalSize sfa:w="960.000000" sfa:h="540.000000" />
-                            <sf:size sfa:w="1024" sfa:h="576" />
-                            <sf:position sfa:x="0" sfa:y="96" />
+                            <sf:naturalSize sfa:w="1024.000000" sfa:h="768.000000" />
+                            <sf:size sfa:w="1024" sfa:h="768" />
+                            <sf:position sfa:x="0" sfa:y="0" />
                         </sf:geometry>
                         <sf:wrap>
                             <sf:path sfa:ID="sf:path-${(data.path4.base+(x?index)*data.path4.step)?c}">
@@ -10492,11 +10500,11 @@
                             <sf:image-media sfa:ID="sf:image-media-${(data.image_media0.base+(x?index)*data.image_media0.step)?c}">
                                 <sf:filtered-image sfa:ID="sf:filtered-image-${(data.filtered_image0.base+(x?index)*data.filtered_image0.step)?c}">
                                     <sf:unfiltered sfa:ID="sf:unfiltered-${(data.unfiltered0.base+(x?index)*data.unfiltered0.step)?c}">
-                                        <sf:size sfa:w="960.000000" sfa:h="540.000000" />
+                                        <sf:size sfa:w="1024.000000" sfa:h="768.000000" />
                                         <sf:data sfa:ID="sf:data-${(data.data0.base+(x?index)*data.data0.step)?c}" sf:path="pg_${x?index}.pdf" sf:displayname="pg_${x?index}.pdf" />
                                     </sf:unfiltered>
                                     <sf:extent>
-                                        <sfa:rect sfa:x="0" sfa:y="0" sfa:w="960.000000" sfa:h="540.000000" />
+                                        <sfa:rect sfa:x="0" sfa:y="0" sfa:w="1024.000000" sfa:h="768.000000" />
                                     </sf:extent>
                                 </sf:filtered-image>
                             </sf:image-media>

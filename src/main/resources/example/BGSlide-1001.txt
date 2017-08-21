@@ -395,13 +395,21 @@
                 <sf:stylesheet-ref sfa:IDREF="key:stylesheet-1001" />
                 <sf:text-body sfa:ID="sf:text-body-1004">
                     <sf:p sf:list-level="1" sf:style="sf:paragraphstyle-1018">Body Level One
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="2" sf:style="sf:paragraphstyle-1014">Body Level Two
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="3" sf:style="sf:paragraphstyle-1015">Body Level Three
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="4" sf:style="sf:paragraphstyle-1017">Body Level Four
-                        <sf:br /></sf:p>
+
+                        <sf:br />
+                    </sf:p>
                     <sf:p sf:list-level="5" sf:style="sf:paragraphstyle-1020">Body Level Five</sf:p>
                 </sf:text-body>
             </sf:text-storage>
@@ -464,9 +472,9 @@
                 <sf:drawables sfa:ID="sf:drawables-1003">
                     <sf:media sfa:ID="sf:media-1001">
                         <sf:geometry sfa:ID="sf:geometry-1011">
-                            <sf:naturalSize sfa:w="960.000000" sfa:h="540.000000" />
-                            <sf:size sfa:w="1024" sfa:h="576" />
-                            <sf:position sfa:x="0" sfa:y="96" />
+                            <sf:naturalSize sfa:w="1024.000000" sfa:h="768.000000" />
+                            <sf:size sfa:w="1024" sfa:h="768" />
+                            <sf:position sfa:x="0" sfa:y="0" />
                         </sf:geometry>
                         <sf:wrap>
                             <sf:path sfa:ID="sf:path-1009">
@@ -480,11 +488,11 @@
                             <sf:image-media sfa:ID="sf:image-media-1001">
                                 <sf:filtered-image sfa:ID="sf:filtered-image-1001">
                                     <sf:unfiltered sfa:ID="sf:unfiltered-1001">
-                                        <sf:size sfa:w="960.000000" sfa:h="540.000000" />
+                                        <sf:size sfa:w="1024.000000" sfa:h="768.000000" />
                                         <sf:data sfa:ID="sf:data-1001" sf:path="pg_${x?index}.pdf" sf:displayname="pg_${x?index}.pdf" />
                                     </sf:unfiltered>
                                     <sf:extent>
-                                        <sfa:rect sfa:x="0" sfa:y="0" sfa:w="960.000000" sfa:h="540.000000" />
+                                        <sfa:rect sfa:x="0" sfa:y="0" sfa:w="1024.000000" sfa:h="768.000000" />
                                     </sf:extent>
                                 </sf:filtered-image>
                             </sf:image-media>
