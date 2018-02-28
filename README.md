@@ -1,5 +1,5 @@
 # html2keynote
-This is a conversion project for HTML to keynote
+This is a conversion project for HTML to keynote(**new software has not been supported**)
 
 ## How to use
 ```
